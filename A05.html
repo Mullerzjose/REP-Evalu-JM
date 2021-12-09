@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tienda</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<style type="text/css">
+		*{
+			box-sizing:  border-box;
+		}
+		body{
+			font-family:  arial, helvetica, sans-serif;
+		}
+		header{
+			background-color: #17A2E5;
+			padding: 40px;
+			text-align: center;
+			font-size: 40px;
+			color: white;
+		}
+		article{
+			float: left;
+			padding: 30px;
+			width: 100%;
+			background-color: #e3ba03;
+			height: 450;
+		}
+	</style>
+	</head>
+	<body>
+		<header>
+			Articulos
+		</header>
+</head>
+<body>
+<form action="A06.html" method="get">
+	<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-8" >
+      <table>
+        <tr>
+          <td>
+            <ul>
+              <img src="img/Cam U. Católica.jpg" width="100%">
+              <li>Camiseta U. Católica</li>
+              <li>$25.990</li>
+              <li>Tallas XS-M-L
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <img src="img/Cam Colo Colo.jpg" width="100%"> 
+              <li>Camiseta Colo Colo</li>
+              <li>$25.990</li>
+              <li>Tallas XS-M-L
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <img src="img/Cam U. de Chile.jpg" width="100%">
+              <li>Camiseta U. de Chile</li>
+              <li>$25.990</li>
+              <li>Tallas XS-M-L
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <img src="img/Gorro U. Católica.jpg" width="120%">
+              <li>Gorro U. Católica</li>
+              <li>$9.990</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <img src="img/Gorro Colo Colo.jpg" width="120%">
+              <li>Gorro Colo Colo</li>
+              <li>$9.990</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <img src="img/Gorro U. de Chile.jpg" width="120%">
+              <li>Gorro U. de Chile</li>
+              <li>$9.990</li>
+            </ul>
+          </td>
+        </tr>                   
+      </table>
+    </div>
+		<table border="2">
+			<tr>
+				<td>Ingrese Nombre</td>
+				<td><input type="text" name="nom"></td>
+			</tr>
+			<tr>
+				<td>Ingrese Rut</td>
+				<td><input type="text" name="Rut"></td>
+			</tr>
+			<tr>
+				<td>Producto</td>
+				<td>
+					<select name="producto">
+						<option>None</option>
+						<option>Camiseta U. Católica</option>
+						<option>Camiseta Colo Colo</option>
+						<option>Camiseta U. de Chile</option>
+						<option>Gorro U. Católica</option>
+						<option>Gorro Colo Colo</option>
+						<option>Gorro U. de Chile</option>							
+					</select>								
+				</td>
+			</tr>
+			<tr>
+				<td>Cantidad</td>
+				<td><input type="number" name="cant" min="1 max="100" value="0"></td>
+			</tr>
+			<tr>
+				<td>Comentarios</td>
+				<td><input type="text" name="com"></td>
+			</tr>
+			<tr>				
+				<td>Forma de Pago</td>
+				<td>
+					<select name="pago">
+						<option>Débito</option>
+						<option>Crédito</option>
+						<option>PayPal</option>						
+					</select>
+				</td>
+			</tr>
+
+			<tr>				
+				<td colspan="2"> <input type="submit" name="boton" value="Pagar"></td>				
+			</tr>			
+		</table>
+	</form>
+	<br>
+	<h6>(Indicar talla de camisetas en comentarios)</h6>
+	<br>
+		<a href="A01.html">Ir a pagina 1</a>
+</body>
+</html>
